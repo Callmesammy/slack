@@ -1,0 +1,6 @@
+@SlackClone.API_HostAddress = http://localhost:5096
+
+GET {{SlackClone.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

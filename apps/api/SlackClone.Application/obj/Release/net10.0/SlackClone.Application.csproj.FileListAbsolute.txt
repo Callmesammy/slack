@@ -1,0 +1,15 @@
+C:\Users\USER\slack\apps\api\SlackClone.Application\bin\Release\net10.0\SlackClone.Application.deps.json
+C:\Users\USER\slack\apps\api\SlackClone.Application\bin\Release\net10.0\SlackClone.Application.dll
+C:\Users\USER\slack\apps\api\SlackClone.Application\bin\Release\net10.0\SlackClone.Application.pdb
+C:\Users\USER\slack\apps\api\SlackClone.Application\bin\Release\net10.0\SlackClone.Domain.dll
+C:\Users\USER\slack\apps\api\SlackClone.Application\bin\Release\net10.0\SlackClone.Domain.pdb
+C:\Users\USER\slack\apps\api\SlackClone.Application\obj\Release\net10.0\SlackClone.Application.csproj.AssemblyReference.cache
+C:\Users\USER\slack\apps\api\SlackClone.Application\obj\Release\net10.0\SlackClone.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\slack\apps\api\SlackClone.Application\obj\Release\net10.0\SlackClone.Application.AssemblyInfoInputs.cache
+C:\Users\USER\slack\apps\api\SlackClone.Application\obj\Release\net10.0\SlackClone.Application.AssemblyInfo.cs
+C:\Users\USER\slack\apps\api\SlackClone.Application\obj\Release\net10.0\SlackClone.Application.csproj.CoreCompileInputs.cache
+C:\Users\USER\slack\apps\api\SlackClone.Application\obj\Release\net10.0\SlackClo.7F4EE324.Up2Date
+C:\Users\USER\slack\apps\api\SlackClone.Application\obj\Release\net10.0\SlackClone.Application.dll
+C:\Users\USER\slack\apps\api\SlackClone.Application\obj\Release\net10.0\refint\SlackClone.Application.dll
+C:\Users\USER\slack\apps\api\SlackClone.Application\obj\Release\net10.0\SlackClone.Application.pdb
+C:\Users\USER\slack\apps\api\SlackClone.Application\obj\Release\net10.0\ref\SlackClone.Application.dll

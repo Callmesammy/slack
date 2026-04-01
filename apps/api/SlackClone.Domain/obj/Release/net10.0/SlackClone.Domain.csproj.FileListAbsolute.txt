@@ -1,0 +1,11 @@
+C:\Users\USER\slack\apps\api\SlackClone.Domain\bin\Release\net10.0\SlackClone.Domain.deps.json
+C:\Users\USER\slack\apps\api\SlackClone.Domain\bin\Release\net10.0\SlackClone.Domain.dll
+C:\Users\USER\slack\apps\api\SlackClone.Domain\bin\Release\net10.0\SlackClone.Domain.pdb
+C:\Users\USER\slack\apps\api\SlackClone.Domain\obj\Release\net10.0\SlackClone.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\slack\apps\api\SlackClone.Domain\obj\Release\net10.0\SlackClone.Domain.AssemblyInfoInputs.cache
+C:\Users\USER\slack\apps\api\SlackClone.Domain\obj\Release\net10.0\SlackClone.Domain.AssemblyInfo.cs
+C:\Users\USER\slack\apps\api\SlackClone.Domain\obj\Release\net10.0\SlackClone.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USER\slack\apps\api\SlackClone.Domain\obj\Release\net10.0\SlackClone.Domain.dll
+C:\Users\USER\slack\apps\api\SlackClone.Domain\obj\Release\net10.0\refint\SlackClone.Domain.dll
+C:\Users\USER\slack\apps\api\SlackClone.Domain\obj\Release\net10.0\SlackClone.Domain.pdb
+C:\Users\USER\slack\apps\api\SlackClone.Domain\obj\Release\net10.0\ref\SlackClone.Domain.dll

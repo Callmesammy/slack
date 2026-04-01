@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SlackClone.API/SlackClone.API.csproj" />
+  <Project Path="SlackClone.Application/SlackClone.Application.csproj" />
+  <Project Path="SlackClone.Domain/SlackClone.Domain.csproj" />
+  <Project Path="SlackClone.Infrastructure/SlackClone.Infrastructure.csproj" />
+</Solution>
