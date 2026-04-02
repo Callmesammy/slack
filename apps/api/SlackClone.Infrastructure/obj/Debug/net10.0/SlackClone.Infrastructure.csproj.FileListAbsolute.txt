@@ -15,3 +15,4 @@ C:\Users\USER\slack\apps\api\SlackClone.Infrastructure\obj\Debug\net10.0\SlackCl
 C:\Users\USER\slack\apps\api\SlackClone.Infrastructure\obj\Debug\net10.0\refint\SlackClone.Infrastructure.dll
 C:\Users\USER\slack\apps\api\SlackClone.Infrastructure\obj\Debug\net10.0\SlackClone.Infrastructure.pdb
 C:\Users\USER\slack\apps\api\SlackClone.Infrastructure\obj\Debug\net10.0\ref\SlackClone.Infrastructure.dll
+C:\Users\USER\slack\apps\api\SlackClone.Infrastructure\obj\Debug\net10.0\SlackClone.Infrastructure.sourcelink.json

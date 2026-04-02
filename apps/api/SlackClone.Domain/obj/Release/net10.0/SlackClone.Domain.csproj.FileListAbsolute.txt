@@ -9,3 +9,4 @@ C:\Users\USER\slack\apps\api\SlackClone.Domain\obj\Release\net10.0\SlackClone.Do
 C:\Users\USER\slack\apps\api\SlackClone.Domain\obj\Release\net10.0\refint\SlackClone.Domain.dll
 C:\Users\USER\slack\apps\api\SlackClone.Domain\obj\Release\net10.0\SlackClone.Domain.pdb
 C:\Users\USER\slack\apps\api\SlackClone.Domain\obj\Release\net10.0\ref\SlackClone.Domain.dll
+C:\Users\USER\slack\apps\api\SlackClone.Domain\obj\Release\net10.0\SlackClone.Domain.sourcelink.json

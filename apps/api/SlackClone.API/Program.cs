@@ -18,6 +18,24 @@ if (OperatingSystem.IsWindows())
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddOpenApi();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("default", policy =>
+    {
+        var origins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>() ?? [];
+        if (origins.Length == 0)
+        {
+            origins = ["http://localhost:3000"];
+        }
+
+        policy
+            .WithOrigins(origins)
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials();
+    });
+});
 builder.Services.AddSignalR();
 builder.Services.AddSingleton(new InMemoryPresenceTracker(TimeProvider.System));
 builder.Services.AddHostedService<PresenceExpiryService>();
@@ -72,6 +90,7 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
+app.UseCors("default");
 app.UseAuthentication();
 app.UseAuthorization();
 

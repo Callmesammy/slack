@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SlackClone.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bc3b2f632c7e095074fec99ff0c7af138ad43e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6580d12c84b64ab1f931c8868d1943e619f14ef0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SlackClone.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SlackClone.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
