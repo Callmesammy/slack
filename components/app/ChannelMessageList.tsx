@@ -55,13 +55,26 @@ export default function ChannelMessageList({
     overscan: 10,
   });
 
+  const readyRef = useRef(false);
+  const stickToBottomRef = useRef(true);
+
   useEffect(() => {
-    if (items.length === 0) return;
-    rowVirtualizer.scrollToIndex(rows.length - 1, { align: "end" });
+    if (rows.length === 0) return;
+    // Only auto-scroll if the user is already at (or near) the bottom.
+    if (stickToBottomRef.current) {
+      rowVirtualizer.scrollToIndex(rows.length - 1, { align: "end" });
+    }
+
+    // Mark list "ready" after first render/scroll pass so auto-fetch can't
+    // spam fetches while scrollTop is 0 during mount.
+    if (!readyRef.current) {
+      readyRef.current = true;
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [rows.length]);
 
   const fetchingNextRef = useRef(false);
+  const lastFetchAtRef = useRef(0);
   useEffect(() => {
     const el = parentRef.current;
     if (!el) return;
@@ -71,11 +84,21 @@ export default function ChannelMessageList({
     const fetchNextPage = messagesQuery.fetchNextPage;
 
     const onScroll = () => {
+      // Track whether user is near the bottom so we can decide if we should
+      // auto-scroll on new messages.
+      const distanceFromBottom = el.scrollHeight - el.scrollTop - el.clientHeight;
+      stickToBottomRef.current = distanceFromBottom < 48;
+
+      if (!readyRef.current) return;
       if (!hasNextPage) return;
       if (isFetchingNextPage) return;
       if (fetchingNextRef.current) return;
 
       if (el.scrollTop <= 24) {
+        const now = Date.now();
+        if (now - lastFetchAtRef.current < 750) return;
+        lastFetchAtRef.current = now;
+
         fetchingNextRef.current = true;
         const prevHeight = el.scrollHeight;
         const prevTop = el.scrollTop;

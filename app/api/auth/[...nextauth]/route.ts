@@ -53,6 +53,9 @@ const handler = missingConfigMessage
         GoogleProvider({
           clientId: googleClientId!,
           clientSecret: googleClientSecret!,
+          httpOptions: {
+            timeout: 15_000,
+          },
         }),
       ],
       callbacks: {

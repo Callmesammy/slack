@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SlackClone.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bc3b2f632c7e095074fec99ff0c7af138ad43e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a28aba3a7f3db1b01bb13bf47b9ad45de238dd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("SlackClone.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SlackClone.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
